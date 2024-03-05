@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Contact Me</h2>
+    </header>
+  <section id="contact-form">
+        <h4>Get In Touch</h4>
+        <form action="process_form.php" method="post">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country"><br><br>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>
